@@ -1,3 +1,9 @@
+/*
+opengraph packages provide feature that to fetch website information defined by Open Graph protcol from specified url
+
+The Open Graph protocol
+https://ogp.me/
+*/
 package opengraph
 
 import (
@@ -7,6 +13,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
+// Fetch the website information specified by OpenGraph protcol
 func Fetch(url string) (map[string]interface{}, error) {
 	doc, err := goquery.NewDocument(url)
 	if err != nil {
