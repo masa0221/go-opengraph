@@ -5,9 +5,6 @@ import (
 	"github.com/masa0221/go-opengraph"
 )
 
-func main() {
-}
-
 // ExampleFetch demonstrates fetch website information defined by OpenGraph protocol from specified url.
 func Example_fetch() {
 	og, err := opengraph.Fetch("http://ogp.me")
