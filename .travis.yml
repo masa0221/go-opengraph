@@ -4,6 +4,13 @@ go:
  - 1.11
  - tip
 
+env:
+  global:
+    - GO111MODULE=on
+
+install:
+  - go get golang.org/x/lint/golint
+
 script:
   - go test
   - golint -set_exit_status
