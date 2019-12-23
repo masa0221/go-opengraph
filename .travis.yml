@@ -8,9 +8,13 @@ env:
   global:
     - GO111MODULE=on
 
+branches:
+  only:
+    - master
+
 install:
   - go get golang.org/x/lint/golint
 
 script:
-  - go test
   - golint -set_exit_status
+  - go test -v
