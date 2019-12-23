@@ -1,18 +1,20 @@
-package opengraph
+package opengraph_test
 
 import (
 	"testing"
+
+	"github.com/masa0221/go-opengraph"
 )
 
 func TestFailure (t *testing.T) {
-	_, err := Fetch("test")
+	_, err := opengraph.Fetch("test")
 	if (err == nil) {
 		t.Fatal("Error was not occurred nevertheless it used incorrect url")
 	}
 }
 
 func TestSuccess (t *testing.T) {
-	og, err := Fetch("http://ogp.me")
+	og, err := opengraph.Fetch("http://ogp.me")
 	if (err != nil) {
 		t.Fatal("It was cannot fetch Opengraph data")
 	}
