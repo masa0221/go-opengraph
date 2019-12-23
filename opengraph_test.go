@@ -21,9 +21,9 @@ func TestSuccess (t *testing.T) {
 	if og["title"] != expectedTitle {
 		t.Errorf("Title is not match with expected value (expected: %s, actual: %s)", og["title"], expectedTitle)
 	}
-	expectedUrl := "http://ogp.me/"
-	if og["url"] != expectedUrl {
-		t.Errorf("Url is not match with expected value (expected: %s, actual: %s)", og["url"], expectedUrl)
+	expectedURL := "http://ogp.me/"
+	if og["url"] != expectedURL {
+		t.Errorf("Url is not match with expected value (expected: %s, actual: %s)", og["url"], expectedURL)
 	}
 	expectedImage := "http://ogp.me/logo.png"
 	if og["image"] != expectedImage {
