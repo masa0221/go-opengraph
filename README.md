@@ -1,9 +1,7 @@
 # go-opengraph
 OpenGraph Protocol fetcher for Golang
 
-[![Build Status](https://travis-ci.com/masa0221/go-opengraph.svg?branch=master)](https://travis-ci.com/masa0221/go-opengraph)
-
-View the [docs](https://godoc.org/github.com/masa0221/go-opengraph)
+[![Build Status](https://travis-ci.com/masa0221/go-opengraph.svg?branch=master)](https://travis-ci.com/masa0221/go-opengraph) [![GoDoc](https://godoc.org/github.com/masa0221/go-opengraph?status.svg)](https://godoc.org/github.com/masa0221/go-opengraph)
 
 ## Installation
 
