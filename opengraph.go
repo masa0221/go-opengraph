@@ -1,6 +1,5 @@
 /*
-opengraph packages provide feature that to fetch website information defined by Open Graph protcol from specified url
-
+opengraph packages provide feature that to fetch website information defined by Open Graph protcol from specified url.
 The Open Graph protocol
 https://ogp.me/
 */
